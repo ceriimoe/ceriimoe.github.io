@@ -58,8 +58,12 @@ a {
     color:#efefef;
 }
 
+.not-hl {
+    color: #efefef;
+}
+
 li a :not(.blog-highlighted) {
-    color: #efefef; 
+    color: #dcaaf2;
 }
 
 a .pronoun {
