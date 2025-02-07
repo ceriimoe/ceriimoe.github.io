@@ -58,7 +58,7 @@ a {
     color:#efefef;
 }
 
-li a :not(.blog_highlighted) {
+li a :not(.blog-highlighted) {
     color: #efefef; 
 }
 
