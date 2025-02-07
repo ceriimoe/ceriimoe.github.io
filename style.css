@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "JuliaMono";
+    src: url(font/JuliaMono-Regular.ttf);
+}
+
+body {
+    font-family: "JuliaMono", monospace;
+    font-weight: 400;
+    background-color: #0F070C;
+    color: #efefef;
+    font-size: 16px;
+    padding: 50px 10px 10px 10px;
+}
+
+div {
+    width: 600px;
+    margin:auto;
+}
+
+h2 {
+    color: #dcaaf2;
+}
+
+a {
+    color: #dcaaf2;
+    text-decoration: none;
+}
+
+.centralised, .centralised-title {
+    text-align: center;
+}
+
+.centralised img {
+    padding: 0px 10px 0px
+}
+
+.centralised p, .blogdate {
+    font-size: 12px;
+}
+
+.centralised_button {
+    text-align: center;
+    padding: 20px 0px 0px;
+}
+
+.centralised-title {
+    padding: 20px 0px 20px;
+    color: #56445e;
+}
+
+.highlighted {
+    color: #dcaaf2;
+    display: inline;
+}
+
+.pronoun {
+    font-size: 12px;
+    color:#efefef;
+}
+
+li a :not(.blog_highlighted) {
+    color: #efefef; 
+}
+
+a .pronoun {
+    color: #efefef;
+}
